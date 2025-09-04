@@ -1,0 +1,122 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "readReturn",
+				"outputs": [],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "returnMultiple",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					},
+					{
+						"internalType": "uint256[3]",
+						"name": "",
+						"type": "uint256[3]"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "returnNamed",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "_number",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "_bool",
+						"type": "bool"
+					},
+					{
+						"internalType": "uint256[3]",
+						"name": "_array",
+						"type": "uint256[3]"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "returnNamed2",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "_number",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "_bool",
+						"type": "bool"
+					},
+					{
+						"internalType": "uint256[3]",
+						"name": "_array",
+						"type": "uint256[3]"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/004_FuctionReturn.sol": "Return"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/004_FuctionReturn.sol": {
+			"keccak256": "0x9ff7d5c84103fa67a4b06b1109bf9d5b4a40172056dee97726ead47331c0781d",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://5a108442c6516108abd173e3117fb69452f8b6c2c1fca6f5c7f5c61242211627",
+				"dweb:/ipfs/QmdHpjL1R4ayZ1vXZmiVpwp47HPtSsLLEomUSmdKsG8nwY"
+			]
+		}
+	},
+	"version": 1
+}

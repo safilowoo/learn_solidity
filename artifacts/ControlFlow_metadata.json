@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "whileTest",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/010_ControlFlow.sol": "ControlFlow"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/010_ControlFlow.sol": {
+			"keccak256": "0x3e9c478767822c1b589b7063a3fe52761644c2482afe6d05b24484f3bbf53e81",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://15b4b82b1d928c2f6d586b804dc80b3eee3901e7b36f3fdad9bdbf622513e2c5",
+				"dweb:/ipfs/QmWfsFDnoQDhEQyB8L1nHTZ8ftazRvrJBsuuhSurwaX1w1"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,111 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_number",
+						"type": "uint256"
+					}
+				],
+				"name": "addPure",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "new_number",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "addView",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "new_number",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "minusCall",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "minusPayable",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "balance",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "number",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/003_Fuction.sol": "FuctionTypes"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/003_Fuction.sol": {
+			"keccak256": "0xd6bfd4e1595328a470f4720dfe993be81d4db9b06d81c5d56e9f4a0f0b93bb6b",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://1f258bafd0c85322c0ade75a19a9256e58e726ad5b9a6de3de68c89c923f0f3e",
+				"dweb:/ipfs/QmUU7eGU9jyqDkHhEto8cN8To7VNJz6kjnZXB5DkW6Bgdh"
+			]
+		}
+	},
+	"version": 1
+}

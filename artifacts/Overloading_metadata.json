@@ -1,0 +1,123 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "callF",
+				"outputs": [],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint8",
+						"name": "_in",
+						"type": "uint8"
+					}
+				],
+				"name": "f",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "out",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_in",
+						"type": "uint256"
+					}
+				],
+				"name": "f",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "out",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "saySomething",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "something",
+						"type": "string"
+					}
+				],
+				"name": "saySomething",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/016_Overloading.sol": "Overloading"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/016_Overloading.sol": {
+			"keccak256": "0x40e1af9cbfae867e2b0a0c7ed8e209d8f53e88aea9a14590bbb58a9341d30322",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://fbad7360b48db2aa077443a1f578ec60ca8c6fa462fd1cd3bba0f8d5f7f21d0c",
+				"dweb:/ipfs/QmZam4FQf2H2SDpGA6WaxQ2Un89CYkXZKq1TGaUUc7N62J"
+			]
+		}
+	},
+	"version": 1
+}

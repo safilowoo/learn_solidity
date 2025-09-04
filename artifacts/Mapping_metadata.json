@@ -1,0 +1,102 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "idToAddress",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "swapPair",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_Key",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "_Value",
+						"type": "address"
+					}
+				],
+				"name": "writeMap",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/007_Mapping.sol": "Mapping"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/007_Mapping.sol": {
+			"keccak256": "0xf1a1d2178fb22b3121074624d102697f611e57a4bb0531fd8870b94df97522e4",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://481b9f5378e569d39481166c93afef35e84268cf97dee67283c0e00038fb808d",
+				"dweb:/ipfs/QmWapk7VgKkhQUrYvpQnjMSR7ZCNKii77iRGESii9WdvEG"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,105 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "f",
+				"outputs": [],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[3]",
+						"name": "_data",
+						"type": "uint256[3]"
+					}
+				],
+				"name": "g",
+				"outputs": [
+					{
+						"internalType": "uint256[3]",
+						"name": "",
+						"type": "uint256[3]"
+					},
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "initStudent1",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "initStudent2",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "initStudent3",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "initStudent4",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/006_ ReferenceType.sol": "ReferenceType"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/006_ ReferenceType.sol": {
+			"keccak256": "0x7be5b28a0481464984c148bad7ee74763822f3f26207e67235feef4c00443c55",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://63ef97f533f74e1f97fc3861c87f11878bcc697cd642bacaab4bd1561c8ee04b",
+				"dweb:/ipfs/QmY7vAGXbwUmt2B5KeVUt9d4PduS7txfxZRPMG8D3wa5im"
+			]
+		}
+	},
+	"version": 1
+}
