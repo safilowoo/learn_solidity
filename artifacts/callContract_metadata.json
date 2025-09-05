@@ -1,0 +1,120 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "contract OtherContract",
+						"name": "_Address",
+						"type": "address"
+					}
+				],
+				"name": "callGetX",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_Address",
+						"type": "address"
+					}
+				],
+				"name": "callGetX2",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_Address",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					}
+				],
+				"name": "callSetX",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "otherContract",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					}
+				],
+				"name": "setXTransferETH",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/021_CallOtherContracts.sol": "callContract"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/021_CallOtherContracts.sol": {
+			"keccak256": "0x61ba0372f7345f521675e95447828d874755af45ee92db686e2cf765d0292ec3",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://879d09dc19b2cad180b5a0668b5ae763d993c9200dc85076b187dbe4890696a4",
+				"dweb:/ipfs/QmT8zMBPaTAFtpmq16EEwjPRY9MgHADaQK8chs1XRCbpxG"
+			]
+		}
+	},
+	"version": 1
+}
