@@ -81,7 +81,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/024_Create.sol": "Pair"
+			"contracts/025_Create2.sol": "Pair"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -95,12 +95,20 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/024_Create.sol": {
-			"keccak256": "0x6814fdb7dfc766806646b51b12923a7f843fb713e92c148cc1de03f3491647dc",
+		"contracts/025_Create2.sol": {
+			"keccak256": "0xb78a4e0de0ecf20a34076b253848f227cadce892fa35b95046b4af7a74e5ac5b",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://a289927c66ccf8c691fde0da4b332093a51bd594a88da3f7a16bcc41c953d3ab",
-				"dweb:/ipfs/QmQQ6LVZdxPaDz2KteokBKTNhFnSMcvzD7125QGzDStfqK"
+				"bzz-raw://f2572052cc1c4da6f109d167ac0d0c037de161ca49ce3ad4d76f232828c36713",
+				"dweb:/ipfs/QmWNKup7pdEQXyMtrcswXWFx7arDdPuCx48jiDZWiM1Szg"
+			]
+		},
+		"hardhat/console.sol": {
+			"keccak256": "0x7434453e6d3b7d0e5d0eb7846ffdbc27f0ccf3b163591263739b628074dc103a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://49355f780520494d1d5a0f01858385e51bb5280ce0ecfb960f16995065dca395",
+				"dweb:/ipfs/QmSwJ6C5QLz6xKeQZS8wbwjU1KxRFTYfwbGmtzisd5sRW4"
 			]
 		}
 	},
