@@ -6,8 +6,14 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "Sender",
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "allPiars",
 				"outputs": [
 					{
 						"internalType": "address",
@@ -22,52 +28,45 @@
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "_addr",
+						"name": "tokenA",
 						"type": "address"
 					},
 					{
-						"internalType": "uint256",
-						"name": "_num",
-						"type": "uint256"
+						"internalType": "address",
+						"name": "tokenB",
+						"type": "address"
 					}
 				],
-				"name": "callSetVars",
+				"name": "createPair",
 				"outputs": [
 					{
-						"internalType": "bytes",
-						"name": "",
-						"type": "bytes"
+						"internalType": "address",
+						"name": "pairAddr",
+						"type": "address"
 					}
 				],
-				"stateMutability": "payable",
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "_addr",
+						"name": "",
 						"type": "address"
 					},
 					{
-						"internalType": "uint256",
-						"name": "_num",
-						"type": "uint256"
+						"internalType": "address",
+						"name": "",
+						"type": "address"
 					}
 				],
-				"name": "delegatecallSetvars",
-				"outputs": [],
-				"stateMutability": "payable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "num",
+				"name": "getPair",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "address",
 						"name": "",
-						"type": "uint256"
+						"type": "address"
 					}
 				],
 				"stateMutability": "view",
@@ -87,7 +86,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/023_Delegatecall.sol": "B"
+			"contracts/024_Create.sol": "PairFactory"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -101,12 +100,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/023_Delegatecall.sol": {
-			"keccak256": "0x40f966241d223e3cd966012bffe10402f315ced3c539e42ff5e6393bb9ac16c6",
+		"contracts/024_Create.sol": {
+			"keccak256": "0x6814fdb7dfc766806646b51b12923a7f843fb713e92c148cc1de03f3491647dc",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://8cefa8ad9c9e8a320a16ee9c220c8812a8762f2cac47868f7d93f4592b9bdf2e",
-				"dweb:/ipfs/QmfB39Xy63grTSPfCrWX5MCVv1m91YK8VXsL7awp1Gt1eG"
+				"bzz-raw://a289927c66ccf8c691fde0da4b332093a51bd594a88da3f7a16bcc41c953d3ab",
+				"dweb:/ipfs/QmQQ6LVZdxPaDz2KteokBKTNhFnSMcvzD7125QGzDStfqK"
 			]
 		}
 	},
