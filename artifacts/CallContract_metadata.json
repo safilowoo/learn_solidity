@@ -10,27 +10,29 @@
 				"inputs": [
 					{
 						"indexed": false,
-						"internalType": "uint256",
-						"name": "amount",
-						"type": "uint256"
+						"internalType": "bool",
+						"name": "success",
+						"type": "bool"
 					},
 					{
 						"indexed": false,
-						"internalType": "uint256",
-						"name": "gas",
-						"type": "uint256"
+						"internalType": "bytes",
+						"name": "data",
+						"type": "bytes"
 					}
 				],
-				"name": "Log",
+				"name": "Response",
 				"type": "event"
 			},
 			{
-				"stateMutability": "payable",
-				"type": "fallback"
-			},
-			{
-				"inputs": [],
-				"name": "getBalance",
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_addr",
+						"type": "address"
+					}
+				],
+				"name": "callGetX",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -38,38 +40,39 @@
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getX",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "x",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [
 					{
+						"internalType": "address",
+						"name": "_addr",
+						"type": "address"
+					}
+				],
+				"name": "callNotExist",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_addr",
+						"type": "address"
+					},
+					{
 						"internalType": "uint256",
 						"name": "x",
 						"type": "uint256"
 					}
 				],
-				"name": "setX",
+				"name": "callSetX",
 				"outputs": [],
 				"stateMutability": "payable",
 				"type": "function"
-			},
-			{
-				"stateMutability": "payable",
-				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -85,7 +88,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/022_Call.sol": "OtherContract"
+			"contracts/022_Call.sol": "CallContract"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
