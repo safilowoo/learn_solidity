@@ -1,0 +1,132 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes",
+						"name": "data",
+						"type": "bytes"
+					}
+				],
+				"name": "decode",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "dx",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "daddr",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "dname",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256[2]",
+						"name": "darray",
+						"type": "uint256[2]"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "encode",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "result",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "encodeWithSelector",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "result",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "encodeWithSignature",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "result",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "endoePacked",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "result",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/027_ABIEncodeDecode.sol": "ABIEncodeDecode"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/027_ABIEncodeDecode.sol": {
+			"keccak256": "0xf64df6f9709ae320e7bc6dab8b126d44756bb7d3fba26b612d0849189221966d",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://2f629a2f59671293886aa4ea69f158bd527dd5310f0e8b84316097056b08977f",
+				"dweb:/ipfs/QmUNjP44bADXBSvZuNHbmb7AxbRqPaHJ3ihWnVPoSFwe8F"
+			]
+		}
+	},
+	"version": 1
+}
