@@ -9,8 +9,6 @@ contract Proxy {
         implementation = implementation_;
     }
 
-    receive() external payable {}
-
     fallback() external payable {
         _delegate();
     }

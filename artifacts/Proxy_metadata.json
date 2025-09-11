@@ -32,10 +32,6 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
-			},
-			{
-				"stateMutability": "payable",
-				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -66,11 +62,11 @@
 	},
 	"sources": {
 		"contracts/046_ProxyContract.sol": {
-			"keccak256": "0xc631f5ea94afb96bbc9739ff656503019fe4da2933ac39ba82c2864bff9346ff",
+			"keccak256": "0x2b48513f2118b0cec718003b2899dfd595f3d2627019484e826f4f04459c51ea",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://e58199c185aa9373578e50d64b2191c7ff6ee572495454ac0f2506768a6abe86",
-				"dweb:/ipfs/QmXcj6k27Qg96bxzodtYyftgisD3yBieSB4tmpX4RKTDNw"
+				"bzz-raw://7693b20697cfc5399c70f4d3d9f1d65a529dd32b4764500ebed5d1cc8de8d0ce",
+				"dweb:/ipfs/QmYM225fP4P6XXEkVRJnU6Wi7xj81d1zzbiffseK6pxpob"
 			]
 		}
 	},
